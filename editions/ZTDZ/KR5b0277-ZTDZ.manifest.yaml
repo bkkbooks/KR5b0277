@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0277/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0277/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 養命機關金丹真訣
+  date: '2015-08-29 00:15:37.290248'
+  source:
+    repository: kanripo
+    path: KR5b0277
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0277_000-ZTDZ.yaml, hash: 'sha256:10847b56ad873a66e4f7526901e1b5971300956575c182100ab91f7f7e7ee152'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0277_000-ZTDZ.markers.yaml, hash: 'sha256:43b0dff8c4e5c08dea7996504bca539e7724e32bfb7b611bd3c52162b1b8eb2a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0277_SJB_000-100675a
+    span:
+    - body
+    - 0
+    - 673
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:c3fb8008cf084c8b8aaca880de65de9aa8767db645ca61cbec5189a105d1a9b0
